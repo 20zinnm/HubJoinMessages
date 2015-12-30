@@ -1,63 +1,8 @@
-# Setting for each rank on join #
-
-# Default, what happens if the player
-# Does not have permission?
-Default:
-  UseThis: true
-  JoinMessage: ''
-  QuitMessage: ''
-  
-# Paid ranks
-Elite: 
-  Permission: 'hub.elite'
-  JoinMessage: ''
-  QuitMessage: ''
-  
-Mythical: 
-  Permission: 'hub.mythical'
-  JoinMessage: ''
-  QuitMessage: ''
-  
-Ninja: 
-  Permission: 'hub.ninja'
-  JoinMessage: ''
-  QuitMessage: ''
-
-# Staff Ranks
-Moderator: 
-  Permission: 'hub.moderator'
-  JoinMessage: ''
-  QuitMessage: ''
-  
-Admin: 
-  Permission: 'hub.admin'
-  JoinMessage: ''
-  QuitMessage: ''
-  
-Owner: 
-  Permission: 'hub.owner'
-  
-  Playsound: false
-  Playtitle: false
-  
-  JoinMessage: ''
-  QuitMessage: ''
-  Title: ''
-  Subtitle: ''
-  
-
-# Special Ranks
-YouTuber: 
-  Permission: 'hub.youtuber'
-  JoinMessage: ''
-  QuitMessage: ''
-  
-Builder: 
-  Permission: 'hub.builder'
-  JoinMessage: ''
-  QuitMessage: ''
-  
-Developer: 
-  Permission: 'hub.developer'
-  JoinMessage: ''
-  QuitMessage: ''
+join-messages:
+  default: "&eWelcome, %player%. This is the default join message!"
+  special: "&bWelcome, &e%player%&b. This is a special join message! Permission: &ehubjoinmessages.join.special&b."
+  op: "&bWelcome, Operator &e%player%&b. This is the join message for operators!"
+leave-messages:
+  default: "&eBye, %player%. This is the default leave message!"
+  special: "&bBye, &e%player%&b. This is a special leave message! Permission: &ehubjoinmessages.leave.special&b."
+  op: "&bBye, Operator &e%player%&b. This is the leave message for operators!"
