@@ -1,0 +1,5 @@
+name: HubJoinMessages
+version: 1.0
+main: me.boomboompower.Hub
+author: boomboompower
+description: Sets the join messages in the hub
